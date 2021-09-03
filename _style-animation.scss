@@ -1,0 +1,60 @@
+.rotate-center {
+	animation: none;
+}
+
+
+.rotate-scale-up{
+  animation: rotate-scale-up 0.65s linear both;
+
+}
+.rotate-scale-up-reverse{
+  animation: rotate-scale-up 0.65s linear both;
+
+}
+
+.shock{
+  animation: shock 300ms 2;
+  animation-delay: 500ms;
+}
+
+
+@keyframes rotate-center {
+    0% {
+      -webkit-transform: rotate(0);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+    }
+  }
+
+
+@keyframes rotate-scale-up {
+    0% {
+      -webkit-transform: rotate(0);
+              transform: rotate(0) scale(100%);
+    }
+    50%{
+      transform: rotate(30deg) scale(90%);
+    }
+    80% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg) scale(110%);
+    }
+    100% {
+      -webkit-transform: rotate(360deg);
+              transform: rotate(360deg) scale(100%);
+    }
+  }
+
+
+  @keyframes shock {
+    0%{
+      box-shadow: none;
+    }
+    50%{
+      box-shadow: 0px 0px 0px 30px rgba(54, 219, 248, 0.719);
+    }
+    100%{
+      box-shadow: none;
+    }
+  }

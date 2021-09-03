@@ -1,0 +1,39 @@
+
+.left-bar,
+.right-bar {
+    
+    // border-bottom: 2px solid rgb(110, 110, 110);
+    // border-right: 2px solid rgb(119, 119, 119);
+    background: rgb(255, 255, 255);
+}
+
+
+.b,
+h1,
+h3,
+p,
+a {
+    background: rgba(240, 240, 240, 0);
+    color: #000;
+}
+
+h1,
+h3,
+p {
+    background: rgba(0, 0, 0, 0);
+}
+
+.b {
+    background: #000000;
+}
+header{
+    background: #000;
+}
+
+/*
+Color Storage
+1. Mata: background: rgb(0, 88, 101) ;
+2. Magenta: background: rgb(159, 0, 79) ;
+3. Gradient: background: linear-gradient(pink, cyan);
+
+*/
